@@ -11,6 +11,8 @@ app = FastAPI(
     version="1.0.0"
 )
 
+import os
+API_KEY = os.getenv("API_KEY")
 
 
 class AnalysisInput(BaseModel):
