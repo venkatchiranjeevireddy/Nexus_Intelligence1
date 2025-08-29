@@ -11,7 +11,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-API_KEY = "mysecret123"
+
 
 class AnalysisInput(BaseModel):
     task: str
